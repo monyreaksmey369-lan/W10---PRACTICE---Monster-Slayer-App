@@ -1,7 +1,7 @@
 import React from "react";
 
 function GameOver({title,restartGame}) {
-    return<>
+    return <>
     <section class="container">
       <h2>Game Over!</h2>
       <h3>{title}</h3>

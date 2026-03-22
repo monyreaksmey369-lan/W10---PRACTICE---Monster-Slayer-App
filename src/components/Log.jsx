@@ -13,9 +13,8 @@ function Log({ log }) {
               </span>
 
               <span>
-                {list.isDamage ? "damage" : "health"}
                 <span className={list.isDamage ? "log--damage" : "log--heal"}>
-                  {list.value} 12
+                  {list.text}
                 </span>
               </span>
             </li>
