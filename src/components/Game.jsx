@@ -63,7 +63,7 @@ function Game() {
   }
 
   function healHandler(){
-    const heal = getRandomValue(9, 12);
+    const heal = getRandomValue(8, 12);
     const monsterDamage = getRandomValue(8, 15);
 
     setPleayerHeath((prev) =>
@@ -78,7 +78,7 @@ function Game() {
 
   function specialAttackHandler() {
     
-    const damage = getRandomValue(9, 15);
+    const damage = getRandomValue(8, 25);
     const monsterDamge = getRandomValue(8, 15);
 
     setMonsterheath((prev) => Math.max(prev - damage, 0));
